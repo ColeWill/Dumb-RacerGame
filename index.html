@@ -2,34 +2,47 @@
 <html>
 <head>
 	<title>Tic-Tac-Tizzle</title>
-	<link rel="stylesheet" type="text/css" src="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
 
 <h1>Tic-Tac-Toe</h1>
+<h2>Is there a winner?</h2>
+<p>Reload your browser tab if you want to play again ;)</p>
+
+<button class="X">add an X</button>
+<button class="O">add an O</button>
+<button class="reset">Reset Game</button>
 
 <table>
 	<tr>
-		<td>0</td>
-		<td>1</td>
-		<td>2</td>
+		<td class="cells" id="0"></td>
+		<td class="cells" id="1"></td>
+		<td class="cells" id="2"></td>
 	</tr>
 
 	<tr>
-		<td>3</td>
-		<td>4</td>
-		<td>5</td>
+		<td class="cells" id="3"></td>
+		<td class="cells" id="4"></td>
+		<td class="cells" id="5"></td>
 	</tr>
 
 	<tr>
-		<td>6</td>
-		<td>7</td>
-		<td>8</td>
+		<td class="cells" id="6"></td>
+		<td class="cells" id="7"></td>
+		<td class="cells" id="8"></td>
 	</tr>
-	
+
 </table>
-
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
 <script type="text/javascript" src="js/app.js"></script>
+
+
+
+
 </body>
 </html>

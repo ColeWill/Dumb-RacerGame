@@ -1,4 +1,27 @@
 table, th, td{
 	border-collapse: collapse;
 	border: 1px solid black;
+	font-size: 80px;
+	text-align: center;
+	width: 400px;
+
+}
+td:hover {background-color: #f5f5f5}
+img{
+	background-size: cover;
+	max-height: 150px;
+}
+td{
+	font-color: grey;
+}
+
+table{
+	width: 500px;
+	height: 500px;
+}
+h1{
+	color: green;
+}
+button{
+	font-size: 20px;
 }

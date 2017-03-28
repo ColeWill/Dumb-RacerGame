@@ -1,4 +1,7 @@
 table, th, td{
+	/*without this command each cell in by table would have it's
+	own border, which simply means two parallel lines drawing the table
+	the "collapse" tells them to share one line nicely*/
 	border-collapse: collapse;
 	border: 1px solid black;
 	font-size: 80px;
@@ -6,15 +9,19 @@ table, th, td{
 	width: 400px;
 
 }
+/*the hover style allows me to change the background color of a cell
+when a user's mouse passes over it.  It is a pointless feature because 
+you can always see the pointer of your mouse on screen... but it looks nice.*/
 td:hover {background-color: #f5f5f5}
+
 img{
+	/*this css command allows to me shrink my image down to fit
+	within the cell on my table, without it the game would be ruined*/
 	background-size: cover;
-	max-height: 150px;
-}
-td{
-	font-color: grey;
+	
 }
 
+/*these commands dictated the size of my game board*/
 table{
 	width: 500px;
 	height: 500px;
@@ -23,5 +30,6 @@ h1{
 	color: green;
 }
 button{
+	/* drastically changed the readability and appearance of my buttons*/
 	font-size: 20px;
 }

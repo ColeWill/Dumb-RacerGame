@@ -11,11 +11,14 @@
 <h2>Is there a winner?</h2>
 <p>Reload your browser tab if you want to play again ;)</p>
 
+<!-- These are my x and o buttons, selecting either allows you to place an x or an o in a cell of the table.  This feature allowed me to selcet player turns -->
 <button class="X">add an X</button>
 <button class="O">add an O</button>
 <button class="reset">Reset Game</button>
 
+<!-- The table is the game board, each table row or <tr> conatains 3 cells or <td> that top to bottom in html appear left to right on the web page -->
 <table>
+<!-- I gave each cell an id number that I could put In an array to check for a win condition using javascript -->
 	<tr>
 		<td class="cells" id="0"></td>
 		<td class="cells" id="1"></td>
@@ -35,6 +38,8 @@
 	</tr>
 
 </table>
+
+<!-- this is a link to the jQuery CDN so that all of my jQuery commands will work in the browser -->
 <script
   src="https://code.jquery.com/jquery-2.2.4.min.js"
   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="

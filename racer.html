@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Racr Game</title>
+	<title>Keyboard Racer</title>
 	<link rel="stylesheet" type="text/css" href="css/racerstyle.css">
 <script
   src="https://code.jquery.com/jquery-3.2.1.min.js"
@@ -12,18 +12,22 @@
 
 </head>
 <body>
-<h1>Move racerTwo with "S" </h1>
-<h2>move racerOne with "N"</h2>
+	<h1>First Player All the way Across the finish Line Wins!!!</h1>
+<h2>move racerOne with the "A" Key</h2>
+<h1>Move racerTwo with the "L" Key </h1>
+
 <p>First Person to cross the finishline wins!!!</p>
 <div class="fLine">
 <!-- this div contains my text that is the graphic representation of a racer, I use jQuery to grab these divs and move them across the screen -->
-	<div id="divOne" type="text">racerOne </div>
+	<div id="racerOne" type="text">racerOne </div>
 	
-	<div id="divTwo" type="text"> racerTwo</div>
+	<div id="racerTwo" type="text"> racerTwo</div>
 	</div>
 
 
 <!-- I use jQuery to grab the span in the below line, and display a win condition once one of them has crossed the finish line -->
-	<p>Have we reached the finish line?<span> Nope</span></p>
+	<p>Last one across the finish line has to buy pancakes!<span id="done"> No One Has one Yet...</span></p>
+
+
 </body>
 </html>

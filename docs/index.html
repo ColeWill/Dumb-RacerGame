@@ -12,21 +12,20 @@
 
 </head>
 <body>
-	<h1>First Player All the way Across the finish Line Wins!!!</h1>
-<h2>move racerOne with the "A" Key</h2>
-<h2>Move racerTwo with the "L" Key </h2>
+	<div class="container">
+		<h1>First Player All the way Across the finish Line Wins!!!</h1>
+		<h2>move racerOne with the "A" Key</h2>
+		<h2>Move racerTwo with the "L" Key </h2>
 
-<p>First Person to cross the finishline wins!!!</p>
-<div class="fLine">
-<!-- this div contains my text that is the graphic representation of a racer, I use jQuery to grab these divs and move them across the screen -->
-	<div id="racerOne" type="text">racerOne </div>
-	
-	<div id="racerTwo" type="text"> racerTwo</div>
+		<p>First Person to cross the finishline wins!!!</p>
+		<div class="fLine">
+		<!-- this div contains my text that is the graphic representation of a racer, I use jQuery to grab these divs and move them across the screen -->
+			<div id="racerOne" type="text">racerOne </div>	
+			<div id="racerTwo" type="text"> racerTwo</div>
+		</div>
+		<!-- I use jQuery to grab the span in the below line, and display a win condition once one of them has crossed the finish line -->
+		<p>Last one across the finish line has to buy pancakes!<span id="done"> No One Has one Yet...</span></p>
 	</div>
-
-
-<!-- I use jQuery to grab the span in the below line, and display a win condition once one of them has crossed the finish line -->
-	<p>Last one across the finish line has to buy pancakes!<span id="done"> No One Has one Yet...</span></p>
 
 </body>
 </html>

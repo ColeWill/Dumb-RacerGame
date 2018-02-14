@@ -1,4 +1,6 @@
-
+.container{
+	padding:5% 2% 0 5%;
+}
 /* this line draws the finish line for the racers
 It is basically a div, or box, where only the right side'is black and the 
 top bottom and left lines are invisible */

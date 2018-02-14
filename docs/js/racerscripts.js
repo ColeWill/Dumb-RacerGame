@@ -1,6 +1,6 @@
   //run this whole thing when doc loads
 $(document).ready(function(){
-    alert("tap your key alot to win! 3.... 2.... 1.... GO!!!");
+    // alert("tap your key alot to win! 3.... 2.... 1.... GO!!!");
     //grab both div htmls and chnage css 
     $("div").css("position", "relative");
 
@@ -57,7 +57,7 @@ $(document).ready(function(){
             //...and it becomes an html element, and then we grab the id of that element ... ;) then we concatenate it into another string to display the winner!!
             $("span").text($(divSelectionText).attr('id') + "reached 300px!");
             $("span").css("color","red");
-            $("span").css("font-size","150px");
+            $("span").css("font-size","50px");
             $
             //want to end the function
             $(document).unbind();
